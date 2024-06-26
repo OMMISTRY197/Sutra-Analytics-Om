@@ -1,0 +1,13 @@
+list = ["om" , "aryan", "rudraksh", "bablu", "mahir"]
+list.insert(2,"hello")
+list.insert(4,"mistry")
+print(list)
+(list.pop(1))
+(list.pop(3))
+print(list)
+list.sort()
+print(list)
+list.sort(reverse=True)
+print(list)
+# list.reverse()
+# print(list)
