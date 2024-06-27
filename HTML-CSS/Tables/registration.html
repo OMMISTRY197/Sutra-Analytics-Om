@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        table {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table border="3" style="border-collapse: collapse; height: 600px; width: 600px;">
+            <tr style="text-align: center;">
+                <td colspan="4">
+                    <h1> Registration Form</h1>
+                </td>
+            </tr>
+            <tr>
+                <td><label> Username : </label></td>
+                <td colspan="3"> <input type='text' name='uname' placeholder="eg; _ommistry197" required> </td>
+            </tr>
+            <tr>
+                <td><label> First Name : </label></td>
+                <td colspan="3"><input type='text' name='fname' placeholder="eg; Om" required> </td>
+            </tr>
+            <tr>
+                <td> <label> Last Name : </label> </td>
+                <td colspan="3"> <input type='text' name='lname' placeholder="eg; Mistry" required> </td>
+            </tr>
+            <tr>
+                <td> <label> Address : </label> </td>
+                <td colspan="3"> <textarea id="address" name="address" rows="4" cols="50" placeholder="Enter Address"
+                        required> </textarea> </td>
+            </tr>
+            <tr>
+                <td><label> Gender : </label>
+                <td><input type='radio' id='gender' name='gender' value="male"> Male </td>
+                <td><input type='radio' id='gender' name='gender' value="female"> Female </td>
+                <td><input type='radio' id='gender' name='gender' value="transgender"> Transgender </td>
+            </tr>
+            <tr>
+                <td><label> Date of Birth : </label></td>
+                <td colspan="3"><input type="date" id='birthday' name="birthday" required> </td>
+            </tr>
+            <tr>
+                <td><label> Mobile : </label></td>
+                <td colspan="3"><input type="tel" id="phone" name="phone" pattern="[0-9]{10}"
+                        placeholder="Enter 10-digit phone number" required> </td>
+            </tr>
+            <tr>
+                <td><label> Email: </label></td>
+                <td colspan="3"><input type='email' name='email' placeholder="eg; ommistry19@gmail.com" required> </td>
+            </tr>
+            <tr>
+                <td><label> Password : </label> </td>
+                <td colspan="3"> <input type='password' name='password' placeholder="Enter Your Password..." required>
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td colspan="4"><button type="button">Submit</button></td>
+            </tr>
+            </form>
+        </table>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/CarPage/mainbg.jpg");
+    background-repeat: repeat;
+}
+
+span {
+    color: red;
+}
+
+.main {
+    background-color: black;
+    width: 1000px;
+    height: 1200px;
+    margin-top: 50px;
+    border: 3px solid silver;
+}
+
+.header {
+    height: 257px;
+    width: 100%;
+    background-image: url("/CarPage/travels.jpg");
+    background-repeat: no-repeat;
+}
+
+.nav {
+    background-image: url("/CarPage/navbar.jpg");
+    background-repeat: repeat-x;
+    padding: 10px 0;
+    margin-top: -10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.nav a:hover {
+    color: aqua;
+}
+
+.content {
+    width: 1000px;
+    height: 821px;
+    display: flex;
+}
+
+.leftbar {
+    width: 30%;
+    background-color: rgba(192, 192, 192, 0.512);
+}
+
+.login-page {
+    width: 250px;
+    height: 265px;
+    margin-top: 10px;
+    border: 3px solid silver;
+    text-align: center;
+    font-size: medium;
+    background-color: black;
+}
+
+.login-page h3 {
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid silver;
+    padding: 5px;
+    background-image: url("/CarPage/leftbar.gif");
+}
+
+.login-page label {
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-page input {
+    font-size: x-small;
+    margin-top: 25px;
+}
+
+.login-page button {
+    margin-top: 20px;
+    height: 25px;
+    width: 60px;
+    font-weight: bolder;
+}
+
+.login-page .a1 {
+    margin-top: 40px;
+    padding: 20px;
+    color: white;
+}
+
+.login-page .a2 {
+    margin-top: 100px;
+    color: skyblue;
+}
+
+.events {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    border: 3px solid silver;
+    text-align: center;
+    font-size: medium;
+    background-color: black;
+}
+
+.events h3 {
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid silver;
+    padding: 5px;
+    background-image: url("/CarPage/leftbar.gif");
+}
+
+.cars {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    border: 3px solid silver;
+    text-align: center;
+    font-size: medium;
+    background-color: black;
+}
+
+.cars h3 {
+    color: white;
+    text-align: center;
+    border-bottom: 3px solid silver;
+    padding: 5px;
+    background-image: url("/CarPage/leftbar.gif");
+}
+
+.rightbar {
+    width: 70%;
+    border-left: 3px solid black;
+    background-color: black;
+}
+
+.rightbar .rbar1 {
+    height: 13%;
+    background-color: white;
+    border: 2px solid rgba(192, 192, 192, 0.469);
+}
+
+.rightbar .rbar1 img {
+    padding-top: 17px;
+    height: 53px;
+    width: 135px;
+}
+
+.rightbar .rbar2 {
+    height: 711PX;
+    background-color: white;
+
+}
+
+.footernav {
+    background-image: url("/CarPage/navbar.jpg");
+    background-repeat: repeat-x;
+    padding: 10px 0;
+}
+
+.footernav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.footerdeclaration {
+    background-image: url("/CarPage/footerbg.jpg");
+    background-repeat: repeat-x;
+    padding: 4px 0;
+    color: white;
+}
+
+.rbar2 .rbar21 {
+    width: 139px;
+    height: 711px;
+    float: left;
+    background-color: white;
+}
+
+.rbar2 .rbar22 {
+    width: 210px;
+    height: 681px;
+    padding-top: 30px;
+    float: left;
+    background-color: white;
+}
+
+.rbar2 .rbar23 {
+    width: 139px;
+    height: 711px;
+    float: left;
+    background-color: white;
+}
+
+.rbar2 .rbar24 {
+    width: 209px;
+    height: 681px;
+    padding-top: 30px;
+    float: left;
+    background-color: white;
+}
+
+
+/* ############################
+--------Gallery.html----------
+############################ */
+
+.gallerycontent {
+    width: 1000px;
+    height: 821px;
+    background-color: rgba(0, 0, 0, 0.238);
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.g1 {
+    width: 1000px;
+    height: 205.25px;
+    display: flex;
+}
+
+.g1left img {
+    height: 190px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-top: 8px;
+}
+
+.g1right {
+    width: 680px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.g1right li {
+    text-align: justify;
+}
+
+
+.g2 {
+    width: 1000px;
+    height: 205.25px;
+}
+
+.g2left {
+    width: 680px;
+    margin-left: 20px;
+    margin-top: 35px;
+    float: left;
+}
+
+.g2left li {
+    text-align: justify;
+}
+
+.g2right img {
+    height: 190px;
+    width: 250px;
+    border-radius: 20px;
+    padding-top: 8px;
+    margin-left: 15px;
+}
+
+.g3 {
+    width: 1000px;
+    height: 205.25px;
+    display: flex;
+}
+
+.g3left img {
+    height: 190px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-top: 8px;
+}
+
+.g3right {
+    width: 680px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.g3right li {
+    text-align: justify;
+}
+
+.g4 {
+    width: 1000px;
+    height: 205.25px;
+}
+
+.g4left {
+    width: 680px;
+    margin-left: 20px;
+    margin-top: 35px;
+    float: left;
+}
+
+.g4left li {
+    text-align: justify;
+}
+
+.g4right img {
+    height: 190px;
+    width: 250px;
+    border-radius: 20px;
+    padding-top: 8px;
+    margin-left: 15px;
+}
+
+/* ############################
+--------contactUs.html---------
+############################ */
+
+.contactUs {
+    width: 1000px;
+    height: 821px;
+    background-color: rgba(0, 0, 0, 0.238);
+    color: rgba(255, 255, 255, 0.548);
+}
+
+.contactForm p{
+    font-size: larger;
+    margin-top: 20px;
+}
+
+.contactForm form{
+    margin-top: 20px
+}
+
+.contactForm input,textarea
+{
+    width: 900px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contactForm button {
+    background-color:burlywood;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.contactForm button:hover {
+    background-color: rgb(235, 190, 27);
+}
+
+.map{
+    margin-top: 20px;
+}
+
+.contactDetails{
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.contactDetails p{
+    padding: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo img:hover{
+    padding: -2px;
+}
+
+/* ############################
+--------aboutUs.html---------
+############################ */
+
+.aboutCont{
+    width: 1000px;
+    height: 821px;
+}
+
+.conthead{
+    height: 400px;
+}
+
+.conthead p{
+    color: white;
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.aboutL{
+    width: 30%;
+    float: left;
+}
+
+.aboutL img{
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.aboutR{
+    width: 70%;
+    float: right;
+}
+
+.aboutR p{
+    font-size:18px;
+    margin-top: 50px;
+    text-align: left;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ourclients{
+    width: 800px;
+    margin-top: 20px;
+}
+
+.ourclients p{
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.ourclients img{
+    margin-top: 20px;
+    height: 50px;
+    padding: 15px;
+}

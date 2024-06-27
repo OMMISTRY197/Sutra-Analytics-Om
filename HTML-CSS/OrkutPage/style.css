@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("/OrkutPage/111bg.jpg");
+}
+
+.main{
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
+}
+
+.header{
+    height: 250px;
+    background-image: url("/OrkutPage/myhbg11.jpg");
+}
+
+.nav{
+    height: 51px;
+    background-image: url("/OrkutPage/mymbg11.jpg");
+}
+
+.content{
+    display: flex;
+    width: auto;
+}
+
+.leftbar{
+    height: 600px;
+    width: 150px;
+    position: relative;
+}
+
+.left{
+    height: 450px;
+    width: 140px;
+    background-image: url('/OrkutPage/114-2/tblbg.jpg');
+    border: 5px rgba(222, 184, 135, 0.353);
+    border-style: groove;
+}
+
+.left2{
+    height: 154px;
+    width: 140px;
+    margin-top: 50px;
+    border: 5px rgba(222, 184, 135, 0.353);
+    border-style: groove;
+    position: absolute;
+    left: 0;
+}
+
+.left2 img{
+    height: 154px;
+    width: 140px;
+}
+
+.content .left .item span{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: -10px;
+}
+.content .center {
+    height: 650px;
+    width: 550px;
+    margin-left: 10px;
+}
+
+.c1 {
+    height: 180px;
+    background-image: url('/OrkutPage/114-2/tblbg.jpg');
+    border: 5px rgba(222, 184, 135, 0.353);
+    border-style: groove;
+}
+
+.c1 p{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 30%;
+    font-style: oblique;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.587);
+}
+
+.c2 {
+    margin: 10px 0;
+    height: 160px;
+    background-image: url('/OrkutPage/114-2/tblbg.jpg');
+    border: 5px rgba(222, 184, 135, 0.353);
+    border-style: groove;
+}
+
+.c3 {
+    margin: 10px 0;
+    height: 250px;
+    background-image: url('/OrkutPage/114-2/tblbg.jpg');
+    border: 5px rgba(222, 184, 135, 0.353);
+    border-style: groove;
+}
+.content .right{
+    width: 280px;
+    margin-left: 10px;
+}
+
+.r1 {
+    height: 270px;
+    background-image: url('/OrkutPage/114-2/tblbg.jpg');
+    border: 5px rgba(222, 184, 135, 0.353);
+    border-style: groove;
+}
+
+.r1 ul{
+    padding-left: 90px;
+    list-style-type:square;
+}
+
+.r1 ul li{
+    padding-top: 5px;
+    color: rgba(255, 255, 255, 0.581);
+}
+
+.r1 ul li:hover{
+    text-decoration: underline;
+    text-transform:uppercase;
+    color: rgba(153, 205, 50, 0.66);
+}
+
+.r2 {
+    margin: 10px 0;
+    height: 340px;
+    /* background-image: url('/CarPage/cars/5.jpg');
+    background-repeat: no-repeat; */
+    border: 5px rgba(222, 184, 135, 0.353);
+    border-style: groove;
+    display: flex;
+}
+
+.footer{
+    height: 27px;
+    width: 1000px;
+    margin-top: 20px;
+    background-image: url("/OrkutPage/114-2/footer.jpg");
+    /* background-repeat: no-repeat; */
+}
+
+
+.c3 table{
+    border-collapse: collapse;
+    height: 252px;
+    width: 542px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.511);
+}
+
+.r2left{
+    float: left;
+    width: 50%;
+}
+
+.r2left img{
+    padding: 3px;
+}
+
+.r2right{
+    float: right;
+    width: 50%;
+}
+
+.r2right img{
+    padding: 3px;
+}

@@ -1,0 +1,25 @@
+.menu {
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+    color: black;
+}
+
+.menu ul li:hover{
+    color: rgb(30, 215, 228);
+}
+
+body{
+   background-image: url("/back_image.jpg");
+   background-size: cover;
+   font-size: 30px;
+}

@@ -1,0 +1,24 @@
+.text button{
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+}
+
+.dropdown a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+}  
+
+.dropdown{
+    display: none;
+    position: absolute;
+}
+
+.text:hover .dropdown{
+    display: block;
+}
+ .dropdown a:hover{
+    color: red;
+ }

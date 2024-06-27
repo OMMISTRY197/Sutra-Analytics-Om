@@ -1,0 +1,24 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    height: 450px;
+    width: 450px;
+    border-collapse: collapse;
+    border: 4px solid black;
+}
+
+td {
+    width: 500px;
+    height: 140px;
+}
+
+#td-img {
+    background-image: url(/back_image.jpg);
+    background-size: cover;
+    width: 578px;
+    height: 160px;
+}

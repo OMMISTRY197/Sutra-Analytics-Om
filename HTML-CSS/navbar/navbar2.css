@@ -1,0 +1,24 @@
+.menu {
+    background-image: url("/back_image.jpg");
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+    color: white;
+}
+
+.menu ul li:hover{
+    color: rgb(164, 216, 20);
+}
+
+body{
+    background-color: burlywood;
+}

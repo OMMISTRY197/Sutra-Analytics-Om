@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu123 {
+    padding: 10px;
+}
+
+.menu123 ul {
+    list-style-type: none;
+}
+
+.menu123 ul li {
+    margin-right: 20px;
+    color: black;
+    display: inline-block;
+    opacity: 0;
+}
+
+.menu123 ul li:hover {
+    opacity: 1;
+    color: red;
+}

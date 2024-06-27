@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('/WoodenWallPage/images/templatemo_body.jpg');
+}
+
+.main{
+    width: 960px;
+    height: 690px;
+    margin: auto;
+}
+
+.header{
+    width: 960px;
+    height: 101px;
+    background-image: url('/WoodenWallPage/images/templatemo_header.png');
+}
+
+.header p{
+    margin-left: 130px;
+}
+
+.nav{
+    height: 18px;
+    background-image: url('/WoodenWallPage/images/templatemo_menu.png');
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav ul{
+    margin-left: 90px;  
+}
+
+.nav ul li{
+    float: left;
+    list-style-type: none;  
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;   
+}
+
+.nav ul li a:hover{
+    background-image: url('/WoodenWallPage/images/templatemo_menu_hover.png');
+}
+
+.nav ul li .active{
+    background-image: url('/WoodenWallPage/images/templatemo_menu_hover.png');
+}
+
+.content{
+    height: 492px;
+    background-image: url('/WoodenWallPage/images/templatemo_body.png');
+}
+
+.sub-cont{
+    height: 420px;
+    width: 750px;
+    margin-left: 100px;
+    position: relative;
+    top: 50px;
+}
+
+.left{
+    height: 390px;
+    width: 320px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.left h2{
+    color: yellow;
+}
+
+.left img{
+    margin-top: 20px;
+}
+
+.left p{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 13px;
+    margin-top: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.right{
+    height: 420px;
+    width: 350px;
+    float: right;
+}
+
+.right h2{
+    margin-top: 30px;
+    color: yellow;
+}
+
+.right p{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 13px;
+    margin-top: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.rightimg{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.rightimg li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.rightimg li img {
+    vertical-align:middle;
+}
+
+.right li span{
+    color: orange;
+    margin-left: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.footer{
+    margin-top: 20px;
+}
+
+.footer p{
+    color: rgba(255, 255, 255, 0.62);
+    text-align: center;
+    font-size: smaller;
+}
+
+.footer span{
+    text-decoration: underline;
+}
+
+.footer span:hover{
+    text-decoration: none;
+    color: orange;
+}

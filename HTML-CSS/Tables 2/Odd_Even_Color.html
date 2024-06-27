@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Even Row Color</title>
+    <style>
+        table {
+            height: 200px;
+            width: 700px;
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        th {
+            background-color: burlywood;
+        }
+
+        tr:nth-child(odd) {
+            background-color: aqua;
+        }
+
+        tr:nth-child(even) {
+            background-color: cadetblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <table>
+            <tr>
+                <th>monday</th>
+                <th>tuesday</th>
+                <th>wednesday</th>
+            </tr>
+            <tr>
+                <td>java</td>
+                <td>html</td>
+                <td>python</td>
+            </tr>
+            <tr>
+                <td>python</td>
+                <td>django</td>
+                <td>javascript</td>
+            </tr>
+            <tr>
+                <td>css</td>
+                <td>jquery</td>
+                <td>flask</td>
+            </tr>
+            <tr>
+                <td>bootstrap</td>
+                <td>ajax</td>
+                <td>git</td>
+            </tr>
+        </table>
+    </center>
+</body>
+
+</html>

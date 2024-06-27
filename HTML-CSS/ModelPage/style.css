@@ -1,0 +1,160 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+    width: 1519px;
+    height: 800px;
+}
+
+.main {
+    width: 1019px;
+    height: 764px;
+    margin: 70px 0 0 246px;
+    background: url("/ModelPage/model.jpg");
+    background-repeat: no-repeat;
+    border-left: 10px solid silver;
+    border-bottom: 15px solid silver;
+    border-right: 10px solid silver;
+}
+
+.header {
+    padding: 100px 0 0 0;
+    background-color: rgba(0, 0, 0, 0.331);
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+    /* padding: 20px 0 12px 0; */
+    background-color: rgba(192, 192, 192, 0.468);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 0px 40px;
+}
+
+.content {
+    width: 1019px;
+    height: 507px;
+    border-bottom: 7px solid silver;
+    background-color: rgba(0, 0, 0, 0.316);
+}
+
+.content .leftbar {
+    width: 261px;
+    float: left;
+}
+
+.login-page {
+    width: 224px;
+    margin: 0 0 0 25px;
+    border: 5px solid silver;
+    text-align: center;
+    font-size: medium;
+}
+
+.content .leftbar .login-page h3 {
+    color: yellow;
+    text-align: center;
+    border-bottom: 5px solid silver;
+    padding: 5px;
+}
+
+.content .leftbar .login-page label {
+    color: yellow;
+    font-size: 15px;
+}
+
+.content .leftbar .login-page input {
+    font-size: xx-small;
+}
+
+.content .leftbar .login-page .l1 {
+    color: #fff;
+}
+
+.content .leftbar .login-page button {
+    text-align: center;
+    width: 50px;
+}
+
+.content .leftbar .login-page .a1 {
+    color: blueviolet;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content .leftbar .login-page .a2 {
+    color: blueviolet;
+    text-decoration: none;
+} 
+
+.content .rightbar {
+    width: 743px;
+    height: 100%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.186);
+    border-left: 3px solid silver;
+
+}
+
+.rightbar .bar {
+    height: 30px;
+    border-bottom: 3px solid silver;
+}
+
+.bar .bar1 {
+    width: 130px;
+    height: 30px;
+    border-right: 3px solid silver;
+}
+
+.bar2 {
+    height: 30px;
+    margin: 100px 0 323px 0;
+    border-top: 3px solid silver;
+    border-bottom: 3px solid silver;
+    text-align: end;
+    padding-right: 10px;
+}
+
+.bar2 label {
+    color: yellow;
+    margin: 3px;
+    font: bolder;
+
+}
+
+.bar2 select {
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.258);
+    height: 129px;
+}
+
+.footer a {
+    font-size: larger;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 30px;
+}
+
+.footer p {
+    color: yellow;
+    font-size: larger;
+}
+
+.footer span {
+    color: greenyellow;
+}
